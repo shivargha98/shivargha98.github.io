@@ -6,7 +6,6 @@ export const summary = {
   stats: [
     { value: 4.5, suffix: '+ yrs', label: 'AI & Data experience' },
     { value: 5, suffix: '', label: 'industries shipped in' },
-    { value: 95, suffix: '%', label: 'accuracy on shipped OCR pipelines' },
   ],
 }
 
