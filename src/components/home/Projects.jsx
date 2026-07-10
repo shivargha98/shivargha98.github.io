@@ -71,7 +71,7 @@ export default function Projects() {
     <section id="projects" className="scroll-mt-20 border-t border-line">
       <div className="mx-auto max-w-6xl px-5 sm:px-8 py-20 sm:py-28">
         <SectionHeading
-          eyebrow="03 · Work"
+          eyebrow="03 · Projects"
           title="Things I've built"
           lede="Side projects with production instincts; each one explores a question I couldn't answer at the day job. Click through for the problem, the architecture, and what I learned."
         />
