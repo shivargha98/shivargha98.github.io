@@ -31,11 +31,15 @@ export default function Hero() {
             {...fadeUp(reduce, 0.16)}
             className="mt-6 text-base text-ink-soft max-w-xl"
           >
-            GenAI &amp; Computer Vision
-            <span aria-hidden="true" className="mx-2 text-gold-500">·</span>
             Agentic AI
             <span aria-hidden="true" className="mx-2 text-gold-500">·</span>
-            AI Product Builder
+            GenAI
+            <span aria-hidden="true" className="mx-2 text-gold-500">·</span>
+            Computer Vision
+            <span aria-hidden="true" className="mx-2 text-gold-500">·</span>
+            Deep Learning
+            <span aria-hidden="true" className="mx-2 text-gold-500">·</span>
+            AI Product Strategy
             <span aria-hidden="true" className="mx-2 text-gold-500">·</span>
             MBA, IIM Udaipur
           </motion.p>
