@@ -9,7 +9,7 @@ export default function Skills() {
         <SectionHeading
           eyebrow="02 · Skills"
           title="Three layers, one practice"
-          lede="Product judgment on top, agentic AI in the middle, ML engineering at the base — each layer informs the others."
+          lede="Product judgment on top, agentic AI in the middle, ML engineering at the base; each layer informs the others."
         />
         <div className="grid md:grid-cols-3 gap-6">
           {skillGroups.map((group, i) => (

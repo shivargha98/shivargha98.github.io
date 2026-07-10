@@ -23,7 +23,7 @@ export default function Hero() {
             {...fadeUp(reduce, 0.08)}
             className="font-display text-4xl sm:text-6xl font-semibold text-navy-950 tracking-tight leading-[1.05]"
           >
-            I ship AI products —<br />
+            I ship AI products,<br />
             from <em className="text-gold-600 not-italic font-display font-semibold italic">pipeline</em> to{' '}
             <em className="text-gold-600 not-italic font-display font-semibold italic">P&amp;L</em>.
           </motion.h1>
@@ -31,7 +31,7 @@ export default function Hero() {
             {...fadeUp(reduce, 0.16)}
             className="mt-6 text-lg text-ink-soft leading-relaxed max-w-xl"
           >
-            {site.name} — {site.tagline}. 4.5 years building computer vision and
+            {site.name}: {site.tagline}. 4.5 years building computer vision and
             GenAI systems, now steering multi-agent products from pilot to
             production at Accenture Strategy &amp; Consulting.
           </motion.p>

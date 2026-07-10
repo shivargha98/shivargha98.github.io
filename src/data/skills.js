@@ -18,7 +18,7 @@ export const skillGroups = [
     note: 'What I build with now',
     skills: [
       'LangChain / LangGraph',
-      'RAG — Text, Multimodal, Agentic',
+      'RAG: Text, Multimodal, Agentic',
       'ReACT · Reflection · LLM-as-a-Judge',
       'MCP & A2A Protocols',
       'Prompt Registries & Eval Pipelines',

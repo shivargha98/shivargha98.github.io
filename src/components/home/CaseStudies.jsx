@@ -9,7 +9,7 @@ export default function CaseStudies() {
         <SectionHeading
           eyebrow="04 · Case Studies"
           title="Product case studies"
-          lede="Written teardowns of real products — how I'd frame the problem, size the opportunity, and shape the roadmap."
+          lede="Written teardowns of real products: how I'd frame the problem, size the opportunity, and shape the roadmap."
         />
         <Reveal>
           <div className="border border-dashed border-gold-500/40 rounded-lg bg-paper px-8 py-14 text-center max-w-xl mx-auto">
@@ -18,7 +18,7 @@ export default function CaseStudies() {
               First case studies land end of July 2026
             </p>
             <p className="mt-2 text-sm text-ink-soft leading-relaxed">
-              I'm writing them now. Check back soon — or reach out and I'll send a
+              I'm writing them now. Check back soon, or reach out and I'll send a
               draft when it's ready.
             </p>
           </div>

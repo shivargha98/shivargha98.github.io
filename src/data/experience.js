@@ -1,6 +1,6 @@
 export const summary = {
   intro:
-    'I build AI products end-to-end — from OCR pipelines processing 50K+ documents to multi-agent systems for Fortune 500 enterprises. 4.5 years of hands-on AI/ML engineering across BFSI, defense, and surveillance, now paired with an MBA in Digital Enterprise Management from IIM Udaipur.',
+    'I build AI products end-to-end, from OCR pipelines processing 50K+ documents to multi-agent systems for Fortune 500 enterprises. 4.5 years of hands-on AI/ML engineering across BFSI, defense, and surveillance, now paired with an MBA in Digital Enterprise Management from IIM Udaipur.',
   positioning:
     'The combination I bring to product roles: I can read the architecture diagram and the P&L. I prototype agentic systems on weekends and translate them into roadmaps, GTM hypotheses, and stakeholder buy-in on weekdays.',
   stats: [
@@ -19,7 +19,7 @@ export const experience = [
     theme: 'Enterprise Agentic AI · Multi-Agent Product Build',
     type: 'full-time',
     bullets: [
-      'Driving the 0→1 build of a multi-agent product for a North American retail giant — owning product definition and orchestration strategy across autonomous agents',
+      'Driving the 0→1 build of a multi-agent product for a North American retail giant, owning product definition and orchestration strategy across autonomous agents',
       'Architected agent interoperability using MCP and A2A protocols, enabling modular tool access and agent-to-agent handoffs across enterprise systems',
       'Designed a Knowledge Graph & ontology-based reasoning layer grounding agent decisions, improving retrieval precision and explainability',
     ],
@@ -32,7 +32,7 @@ export const experience = [
     theme: 'HRTech · 0→1 Product Build · AIOps & Agentic Hiring Automation',
     type: 'internship',
     bullets: [
-      'Owned end-to-end product roadmap for a 0→1 HRTech AI platform — feature prioritization, user stories, and sprint goals from day one',
+      'Owned end-to-end product roadmap for a 0→1 HRTech AI platform: feature prioritization, user stories, and sprint goals from day one',
       'Architected the AIOps foundation: MLflow Prompt Registry and eval pipelines to measure agent response quality and drive model/prompt decisions',
       'Shipped Resume Parser and JD Parser agents, and built the entire product frontend using Claude Code without dedicated engineering support',
     ],
@@ -55,7 +55,7 @@ export const experience = [
     company: 'Orbo AI',
     location: 'Mumbai',
     period: 'Jun 2022 – Jun 2024',
-    theme: 'Intelligent Document Processing — B2B SaaS Product',
+    theme: 'Intelligent Document Processing · B2B SaaS Product',
     type: 'full-time',
     bullets: [
       'Shipped OCR pipelines with 95% accuracy, directly improving the flagship IDP product’s reliability KPIs and customer satisfaction',

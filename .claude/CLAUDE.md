@@ -17,6 +17,7 @@ Personal portfolio site for **shivargha98.github.io** (future custom domain: `sh
 
 ## Constraints
 
+- **No em-dashes (—) anywhere in site copy.** Use commas, colons, semicolons, periods, or a middle dot (·) for label separators instead. En-dashes in date ranges ("Apr 2026 – Present") are fine.
 - No dark mode.
 - No phone number anywhere on the public site — email only (`shivarghabandopadhyay@gmail.com`).
 - Animations should stay subtle (scroll reveals, hover lifts, count-ups) — not extravagant.

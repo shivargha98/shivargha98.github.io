@@ -73,7 +73,7 @@ export default function Projects() {
         <SectionHeading
           eyebrow="03 · Work"
           title="Things I've built"
-          lede="Side projects with production instincts — each one explores a question I couldn't answer at the day job. Click through for the problem, the architecture, and what I learned."
+          lede="Side projects with production instincts; each one explores a question I couldn't answer at the day job. Click through for the problem, the architecture, and what I learned."
         />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((p, i) => (
