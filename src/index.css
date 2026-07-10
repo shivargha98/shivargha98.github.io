@@ -43,6 +43,30 @@ body {
   @apply font-mono text-xs uppercase tracking-[0.22em] text-gold-600;
 }
 
+/* Pulsing pipeline-node marker used before section headings */
+.node-marker {
+  @apply inline-block h-2 w-2 rounded-full bg-gold-500 shrink-0;
+  animation: node-ping 2.4s ease-out infinite;
+}
+
+@keyframes node-ping {
+  0% {
+    box-shadow: 0 0 0 0 rgba(198, 138, 61, 0.45);
+  }
+  60% {
+    box-shadow: 0 0 0 9px rgba(198, 138, 61, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(198, 138, 61, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .node-marker {
+    animation: none;
+  }
+}
+
 .chip {
   @apply font-mono text-[11px] uppercase tracking-wider px-2.5 py-1 border border-line rounded-full text-ink-soft bg-white/60 whitespace-nowrap;
 }

@@ -7,7 +7,7 @@ export default function CaseStudies() {
     <section id="case-studies" className="scroll-mt-20 border-t border-line bg-white/40">
       <div className="mx-auto max-w-6xl px-5 sm:px-8 py-20 sm:py-28">
         <SectionHeading
-          eyebrow="04 · Case Studies"
+          eyebrow="Case Studies"
           title="Product case studies"
           lede="Written teardowns of real products: how I'd frame the problem, size the opportunity, and shape the roadmap."
         />

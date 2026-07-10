@@ -52,7 +52,7 @@ export default function About() {
     <section id="experience" className="scroll-mt-20 border-t border-line">
       <div className="mx-auto max-w-6xl px-5 sm:px-8 py-20 sm:py-28">
         <SectionHeading
-          eyebrow="01 · Experience"
+          eyebrow="Experience"
           title="Engineer's depth, operator's lens"
           lede={summary.intro}
         />

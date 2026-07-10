@@ -7,7 +7,7 @@ export default function Skills() {
     <section id="skills" className="scroll-mt-20 border-t border-line bg-white/40">
       <div className="mx-auto max-w-6xl px-5 sm:px-8 py-20 sm:py-28">
         <SectionHeading
-          eyebrow="02 · Skills"
+          eyebrow="Skills"
           title="Three layers, one practice"
           lede="Product judgment on top, agentic AI in the middle, ML engineering at the base; each layer informs the others."
         />
