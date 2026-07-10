@@ -41,7 +41,7 @@ export const projects = [
   {
     slug: 'docufetch',
     name: 'docuFetch',
-    year: '2025',
+    year: '2026',
     kind: 'Agentic Build Process',
     oneLiner:
       'A local RAG assistant, built almost entirely by two custom autonomous agent loops that ran the PM lifecycle and the engineering delegation.',
@@ -71,7 +71,7 @@ export const projects = [
   {
     slug: 'docufetch-graph',
     name: 'docuFetch Graph',
-    year: '2025',
+    year: '2026',
     kind: 'Knowledge Systems',
     oneLiner:
       'A personal “LLM wiki”: your documents become a traversable concept graph, and every answer shows the path it took to get there.',
