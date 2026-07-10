@@ -59,11 +59,6 @@ export default function About() {
 
         <div className="grid lg:grid-cols-[1fr_320px] gap-14">
           <div className="group">
-            <Reveal>
-              <p className="text-ink leading-relaxed max-w-2xl mb-12">
-                {summary.positioning}
-              </p>
-            </Reveal>
             <div>
               {experience.map((entry, i) => (
                 <TimelineEntry key={entry.company + entry.period} entry={entry} index={i} />

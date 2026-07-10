@@ -1,8 +1,6 @@
 export const summary = {
   intro:
-    'I have spent 4.5 years building AI that actually ships: document pipelines in fintech, vision systems for defense, and now multi-agent products for Fortune 500 clients. The MBA from IIM Udaipur came from wanting to understand the business behind what I was building.',
-  positioning:
-    'So that is what I bring to product roles: I can read an architecture diagram and a P&L. Weekends are for prototyping agentic systems, weekdays for turning them into roadmaps and stakeholder buy-in.',
+    'I’ve spent 4.5 years building AI that ships: document intelligence for fintech, vision systems for defense, and now multi-agent products for Fortune 500 clients. The MBA at IIM Udaipur came from a simple itch: to understand the business behind what I was building.',
   stats: [
     { value: 4.5, suffix: '+ yrs', label: 'AI & Data experience' },
     { value: 5, suffix: '', label: 'industries shipped in' },
