@@ -29,13 +29,20 @@ export default function Hero() {
           </motion.h1>
           <motion.p
             {...fadeUp(reduce, 0.16)}
-            className="mt-6 text-lg text-ink-soft leading-relaxed max-w-xl"
+            className="mt-6 text-base text-ink-soft max-w-xl"
           >
-            {site.name}: {site.tagline}. 4.5 years building computer vision and
-            GenAI systems, now steering multi-agent products from pilot to
-            production at Accenture Strategy &amp; Consulting.
+            GenAI &amp; Computer Vision
+            <span aria-hidden="true" className="mx-2 text-gold-500">·</span>
+            Agentic AI
+            <span aria-hidden="true" className="mx-2 text-gold-500">·</span>
+            AI Product Builder
+            <span aria-hidden="true" className="mx-2 text-gold-500">·</span>
+            MBA, IIM Udaipur
           </motion.p>
-          <motion.div {...fadeUp(reduce, 0.24)} className="mt-9 flex flex-wrap gap-4">
+          <motion.div
+            {...fadeUp(reduce, 0.24)}
+            className="mt-9 flex flex-wrap items-center gap-4"
+          >
             <a
               href="/#projects"
               className="inline-flex items-center gap-2 bg-navy-950 text-paper px-5 py-2.5 rounded-md font-medium text-sm hover:bg-navy-800 transition-colors"
@@ -44,11 +51,17 @@ export default function Hero() {
               <ArrowDown size={15} />
             </a>
             <a
-              href={site.resumePath}
-              download="Shivargha_Bandopadhyay_Resume.pdf"
+              href="/#experience"
               className="inline-flex items-center gap-2 border border-navy-950/25 text-navy-950 px-5 py-2.5 rounded-md font-medium text-sm hover:border-gold-500 hover:text-gold-600 transition-colors"
             >
-              <FileDown size={15} />
+              My experience
+            </a>
+            <a
+              href={site.resumePath}
+              download="Shivargha_Bandopadhyay_Resume.pdf"
+              className="inline-flex items-center gap-2 text-sm font-medium text-navy-950 link-underline pb-0.5"
+            >
+              <FileDown size={15} className="text-gold-600" />
               Download résumé
             </a>
           </motion.div>
@@ -87,6 +100,9 @@ export default function Hero() {
             height="720"
             className="relative rounded-full w-full shadow-[0_18px_40px_-12px_rgba(10,25,48,0.35)]"
           />
+          <p className="mt-6 text-center font-display text-xl font-semibold text-navy-950">
+            {site.name}
+          </p>
         </motion.div>
       </div>
     </section>

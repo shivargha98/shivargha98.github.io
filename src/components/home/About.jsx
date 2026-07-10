@@ -49,10 +49,10 @@ function TimelineEntry({ entry, index }) {
 
 export default function About() {
   return (
-    <section id="about" className="scroll-mt-20 border-t border-line">
+    <section id="experience" className="scroll-mt-20 border-t border-line">
       <div className="mx-auto max-w-6xl px-5 sm:px-8 py-20 sm:py-28">
         <SectionHeading
-          eyebrow="01 · About"
+          eyebrow="01 · Experience"
           title="Engineer's depth, operator's lens"
           lede={summary.intro}
         />
