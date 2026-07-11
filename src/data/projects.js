@@ -10,6 +10,7 @@ export const projects = [
     github:
       'https://github.com/shivargha98/langGraph-agentic-playground/tree/main/DBQuery_Agent',
     live: null,
+    demo: 'https://www.linkedin.com/posts/shivargha-bandopadhyay-332b0b17_productmanagement-productthinking-genai-ugcPost-7352670864103899137-xfHF/',
     problem:
       'Business users have questions their databases can answer, but every question becomes a ticket for a data analyst. The gap isn’t data, it’s SQL. A trustworthy natural-language interface needs to do more than generate a query: it has to refuse off-topic requests, block destructive statements, and know when its own answer isn’t good enough.',
     approach:
@@ -48,6 +49,7 @@ export const projects = [
     chips: ['Claude Agents', 'FastAPI', 'React', 'ChromaDB'],
     github: 'https://github.com/shivargha98/docuFetch',
     live: null,
+    demo: 'https://www.linkedin.com/posts/shivargha-bandopadhyay-332b0b17_claudecode-aiproduct-aibuilder-ugcPost-7478047713012486145-ZiA4/',
     problem:
       'The product itself is a locally-running RAG system: watch a folder, embed the documents, answer questions with citations. But the real experiment was the process: can a 0→1 product, backend and frontend, be shipped by autonomous agents with a human only steering? Most “AI builds an app” demos skip the unglamorous parts: requirements, decomposition, testing, integration.',
     approach:

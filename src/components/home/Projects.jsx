@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ArrowUpRight, Github, ExternalLink } from 'lucide-react'
+import { ArrowUpRight, Github, ExternalLink, Linkedin } from 'lucide-react'
 import Reveal from '../Reveal.jsx'
 import SectionHeading from '../SectionHeading.jsx'
 import { projects } from '../../data/projects.js'
@@ -39,6 +39,18 @@ function ProjectCard({ project, index }) {
             />
           </span>
           <span className="relative z-10 flex items-center gap-3">
+            {project.demo && (
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${project.name} demo on LinkedIn`}
+                className="inline-flex items-center gap-1.5 border border-gold-500/60 text-gold-600 px-2.5 py-1 rounded-md text-xs font-medium hover:bg-gold-100 transition-colors"
+              >
+                <Linkedin size={13} />
+                Demo
+              </a>
+            )}
             <a
               href={project.github}
               target="_blank"

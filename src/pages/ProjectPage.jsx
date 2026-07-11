@@ -1,6 +1,6 @@
 import { useParams, Link, Navigate } from 'react-router-dom'
 import { motion, useReducedMotion } from 'framer-motion'
-import { ArrowLeft, ArrowRight, Github, ExternalLink } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Github, ExternalLink, Linkedin } from 'lucide-react'
 import Reveal from '../components/Reveal.jsx'
 import PipelineDiagram from '../components/PipelineDiagram.jsx'
 import { projects } from '../data/projects.js'
@@ -63,6 +63,17 @@ export default function ProjectPage() {
               <Github size={15} />
               View on GitHub
             </a>
+            {project.demo && (
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 border border-gold-500 text-gold-600 px-4 py-2 rounded-md text-sm font-medium hover:bg-gold-100 transition-colors"
+              >
+                <Linkedin size={15} />
+                Watch the demo
+              </a>
+            )}
             {project.live && (
               <a
                 href={project.live}
