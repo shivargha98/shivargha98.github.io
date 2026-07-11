@@ -110,6 +110,7 @@ export const projects = [
     chips: ['MCP', 'Apache Airflow', 'Claude', 'MongoDB'],
     github: 'https://github.com/shivargha98/mcp-playground',
     live: null,
+    demo: 'https://www.linkedin.com/posts/shivargha-bandopadhyay-332b0b17_aiops-agenticai-llm-ugcPost-7419725015920852992-ygnD/',
     problem:
       'Agents are good at reasoning, but enterprises run on orchestrated pipelines: Airflow DAGs, message queues, databases. The two worlds rarely touch. This project asks whether a production-grade orchestrator can become just another tool in an agent’s hands, so the agent itself decides when a pipeline should run.',
     approach:
