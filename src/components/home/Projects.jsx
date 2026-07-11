@@ -66,9 +66,10 @@ function ProjectCard({ project, index }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={`${project.name} live demo`}
-                className="text-ink-soft hover:text-gold-600 transition-colors"
+                className="inline-flex items-center gap-1.5 border border-gold-500/60 text-gold-600 px-2.5 py-1 rounded-md text-xs font-medium hover:bg-gold-100 transition-colors"
               >
-                <ExternalLink size={16} />
+                <ExternalLink size={13} />
+                Live demo
               </a>
             )}
           </span>
