@@ -101,6 +101,43 @@ export const projects = [
     ],
   },
   {
+    slug: 'airflow-mcp-orchestrator',
+    name: 'Airflow MCP Orchestrator',
+    year: '2026',
+    kind: 'Agentic Infrastructure',
+    oneLiner:
+      'Apache Airflow exposed to an AI agent as MCP tools: Claude critiques analyst reports, then triggers a multi-LLM council pipeline to challenge its own verdict.',
+    chips: ['MCP', 'Apache Airflow', 'Claude', 'MongoDB'],
+    github: 'https://github.com/shivargha98/mcp-playground',
+    live: null,
+    problem:
+      'Agents are good at reasoning, but enterprises run on orchestrated pipelines: Airflow DAGs, message queues, databases. The two worlds rarely touch. This project asks whether a production-grade orchestrator can become just another tool in an agent’s hands, so the agent itself decides when a pipeline should run.',
+    approach:
+      'A FastMCP server exposes four tools to Claude: discover new files in a staging area, read an analyst’s stock review, persist a critique, and trigger an Airflow DAG through its REST API. Claude scores each review for risk, biases, and logical gaps, then fires the council_review_workflow DAG. The DAG pushes the review and Claude’s critique to MongoDB, asks Gemini 2.0 Flash for an independent senior-analyst reflection, and stores the combined council verdict. The whole Airflow cluster (CeleryExecutor, Postgres, Redis) runs containerized via Docker Compose.',
+    pipeline: [
+      'Staging Area',
+      'MCP File Tools',
+      'Claude Critique',
+      'DAG Trigger',
+      'Gemini Reflection',
+      'Council Record',
+    ],
+    pipelineNote:
+      'The DAG trigger is itself an MCP tool call: the agent decides when the pipeline runs',
+    stack: [
+      'FastMCP server exposing discovery, read, persist, and orchestration tools',
+      'Apache Airflow 3 with CeleryExecutor, triggered via REST API, containerized with Docker Compose',
+      'Claude for the initial critique, Gemini 2.0 Flash for independent reflection',
+      'MongoDB audit trail · PostgreSQL + Redis backing the Airflow cluster',
+    ],
+    highlights: [
+      'Airflow as an MCP service: the agent triggers a production pipeline the same way it reads a file, as a tool call',
+      'LLM Council pattern: two independent models critique the same review, reducing single-model bias',
+      'Agent-to-Orchestrator handshake built against the real Airflow REST API, not a mock',
+      'Every stage lands in MongoDB with timestamps, giving the council a full audit trail',
+    ],
+  },
+  {
     slug: 'ipl-dashboard',
     name: 'IPL Analytics Dashboard',
     year: '2025',
