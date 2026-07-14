@@ -80,6 +80,7 @@ export const projects = [
     chips: ['Claude Haiku', 'NetworkX', 'react-force-graph', 'FastAPI'],
     github: 'https://github.com/shivargha98/docuFetch_graph',
     live: null,
+    demo: 'https://www.linkedin.com/posts/shivargha-bandopadhyay-332b0b17_enterprisebrain-agenticai-graphs-ugcPost-7482684109077786626-4pBk/',
     problem:
       'Standard RAG retrieves chunks, but it can’t explain why: you get an answer and a source file, not a line of reasoning. For personal knowledge bases, that opacity breeds distrust. The idea: what if retrieval was a walk through an explicit graph of concepts, and you could watch it happen?',
     approach:
