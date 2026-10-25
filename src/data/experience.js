@@ -1,8 +1,8 @@
 export const summary = {
   intro:
-    'I’ve spent 4.5 years building AI that ships: document intelligence for fintech, vision systems for defense, and now multi-agent products for Fortune 500 clients. The MBA at IIM Udaipur came from a simple itch: to understand the business behind what I was building.',
+    'I’ve spent 5 years building AI that ships: document intelligence for fintech, vision systems for defense, and now multi-agent products for Fortune 500 clients. The MBA at IIM Udaipur came from a simple itch: to understand the business behind what I was building.',
   stats: [
-    { value: 4.5, suffix: '+ yrs', label: 'AI & Data experience' },
+    { value: 5, suffix: '+ yrs', label: 'AI & Data experience' },
     { value: 5, suffix: '', label: 'industries shipped in' },
   ],
 }
