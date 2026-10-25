@@ -16,9 +16,11 @@ export const experience = [
     theme: 'Enterprise Agentic AI · Multi-Agent Product Build',
     type: 'full-time',
     bullets: [
-      'Driving the 0→1 build of a multi-agent product for a North American retail giant, owning product definition and orchestration strategy across autonomous agents',
-      'Architected agent interoperability using MCP and A2A protocols, enabling modular tool access and agent-to-agent handoffs across enterprise systems',
-      'Designed a Knowledge Graph & ontology-based reasoning layer grounding agent decisions, improving retrieval precision and explainability',
+      'Designed and implemented an AI-native SDLC for the delivery team (intent capture, clarifying questions, codebase exploration, coding, test plans), cutting feature cycle time by 30% across 5 engineers',
+      'Extended the AI SDLC so product managers can test divergent ideas against the live codebase, cutting idea-to-feasibility checks from 2 days to 3 hours',
+      'Re-architected ontology generation with an agentic harness (plan, generate, validate, self-correct), improving accuracy by 40% and reducing SME review effort by 30%',
+      'Implemented evals across the AI SDLC and ontology generation (golden datasets, LLM-as-a-judge, regression gates) to measure quality and gate releases',
+      'Driving the 0→1 build of a multi-agent product for a North American retail giant, owning product definition, orchestration strategy and MCP/A2A agent interoperability across enterprise systems',
     ],
   },
   {
